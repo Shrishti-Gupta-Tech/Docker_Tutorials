@@ -1,6 +1,17 @@
 # Docker Error Identification Practice - Questions 36-100
 
-This file continues from Question 35 in the main practice file.
+This file continues from Question 35 in the main practice file: `Docker_Error_Identification_Practice_100_Questions.md`
+
+## Table of Contents
+- [Questions 36-40: Multi-Stage Build Errors (Continued)](#questions-36-40-multi-stage-build-errors-continued)
+- [Questions 41-50: Environment and ARG Errors](#questions-41-50-environment-and-arg-errors)
+- [Questions 51-60: Port and Networking Errors](#questions-51-60-port-and-networking-errors)
+- [Questions 61-70: Volume and Storage Errors](#questions-61-70-volume-and-storage-errors)
+- [Questions 71-80: Security and Best Practices](#questions-71-80-security-and-best-practices)
+- [Questions 81-90: ENTRYPOINT and CMD Errors](#questions-81-90-entrypoint-and-cmd-errors)
+- [Questions 91-100: Complex Real-World Scenarios](#questions-91-100-complex-real-world-scenarios)
+
+---
 
 ## Questions 36-40: Multi-Stage Build Errors (Continued)
 

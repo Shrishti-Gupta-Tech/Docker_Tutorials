@@ -1,16 +1,12 @@
 # Docker Error Identification Practice - 100 Questions with Solutions
 
 ## Table of Contents
-- [Questions 1-10: Basic Dockerfile Syntax Errors](#questions-1-10)
-- [Questions 11-20: Docker Command Errors](#questions-11-20)
-- [Questions 21-30: WORKDIR and Path Issues](#questions-21-30)
-- [Questions 31-40: Multi-Stage Build Errors](#questions-31-40)
-- [Questions 41-50: Environment and ARG Errors](#questions-41-50)
-- [Questions 51-60: Port and Networking Errors](#questions-51-60)
-- [Questions 61-70: Volume and Storage Errors](#questions-61-70)
-- [Questions 71-80: Security and Best Practices](#questions-71-80)
-- [Questions 81-90: ENTRYPOINT and CMD Errors](#questions-81-90)
-- [Questions 91-100: Complex Scenarios](#questions-91-100)
+- [Questions 1-10: Basic Dockerfile Syntax Errors](#questions-1-10-basic-dockerfile-syntax-errors)
+- [Questions 11-20: Docker Command Errors](#questions-11-20-docker-command-errors)
+- [Questions 21-30: WORKDIR and Path Issues](#questions-21-30-workdir-and-path-issues)
+- [Questions 31-35: Multi-Stage Build Errors](#questions-31-35-multi-stage-build-errors)
+
+**Note:** Questions 36-100 are in the supplementary file: `Docker_Error_Identification_Practice_Questions_36_100.md`
 
 ---
 
@@ -3455,7 +3451,7 @@ docker build -t myapp .
 
 ---
 
-## Questions 31-40: Multi-Stage Build Errors
+## Questions 31-35: Multi-Stage Build Errors
 
 ### Question 31
 **Dockerfile:**
@@ -5431,5 +5427,3 @@ docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 \
 6. **Verify binary is static**: `ldd app` should say "not a dynamic executable"
 7. **Consider security** - smaller image = smaller attack surface
 8. **Test in target environment** - static binaries might behave differently
-
-
